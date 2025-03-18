@@ -1,10 +1,10 @@
 services:
   postgres:
-    container_name: role_managemant_postgres
+    container_name: role_management_postgres
     image: postgres
     ports:
       - 5432:5432
     environment:
       - POSTGRES_USER=admin
-      - POSTGRES_password=admin
-      - POSTGRES_DB=role_managemant
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=role_management
